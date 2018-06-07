@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2f81a548cde4fe844b9becfb9ac12c13
+timeCreated: 1519914084
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mRT_PlayerList: {instanceID: 0}
+  - mTR_AddRowButton: {fileID: 224979837799567594, guid: 2ccbd077e5c520043889322ba45f80c3,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

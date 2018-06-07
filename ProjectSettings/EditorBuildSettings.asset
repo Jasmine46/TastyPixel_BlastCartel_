@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/__Game_Scenes/Menu_Scenes/Game_MenuPUN.unity
+    guid: 8e4881dad23bcb74a8700dfd9745d929
+  - enabled: 1
+    path: Assets/Jasmine/Scenes/PUNLobbyMenu.unity
+    guid: 31d278cbac342fb479b169d6687bc2ca
+  - enabled: 1
+    path: Assets/Jasmine/Scenes/PUNPayload_Test.unity
+    guid: 8631c2500474c3e42bf9b3cf9a874661
+  - enabled: 0
+    path: Assets/Johannes/Scenes/Bones of Strang.unity
+    guid: 3f70461738b373c4d98bf0366e3b8960
+  - enabled: 0
+    path: Assets/Oli/Scenes/Payload_Test.unity
+    guid: fc3659e5bcbf37b48a3928b9288cd930

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1191094240154932}
+  m_IsPrefabParent: 1
+--- !u!1 &1191094240154932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4003356351616898}
+  - component: {fileID: 114764323714085296}
+  - component: {fileID: 114588370200189660}
+  m_Layer: 0
+  m_Name: Weapon - Assault Rifle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4003356351616898
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191094240154932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114588370200189660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191094240154932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 0
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 0
+  instantiationId: -1
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
+--- !u!114 &114764323714085296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191094240154932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c6967cca3902b04083116fffdee15a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pc: {fileID: 114918843430491300, guid: 38ac5967a976a9e4d819298aba2339d7, type: 2}
+  PUNpc: {fileID: 0}
+  onHitParticle: {fileID: 198163059127651846, guid: c12329f940e02bf4bab4fec9bcd0662d,
+    type: 2}
+  onHitParticlePlayer: {fileID: 198304818644121242, guid: c21fa50c6ce80394798f6c0722106136,
+    type: 2}
+  weaponType: 1
+  clipSize: 32
+  ammoStock: 0
+  currentAmmo: 0
+  ammoUsagePrimary: 1
+  ammoUsageSecondary: 8
+  timeToOverheatPrimary: 0
+  timeToOverheatSecondary: 0
+  overheatProgress: 0
+  weaponDamagePrimary: 10
+  fireRatePrimary: 8
+  selfDamagePrimary: 0
+  firePrimarySFX: {fileID: 82609939857214666, guid: 824c5924c542f034cbc494d9bda28696,
+    type: 2}
+  weaponDamageSecondary: 4
+  fireRateSecondary: 2
+  selfDamageSecondary: 0
+  fireSecondarySFX: {fileID: 82566930329786856, guid: 3dbb942b1d35fd843b0121f2babe9174,
+    type: 2}
+  timeToReload: 2
+  isReloading: 0
+  reloadSFX: {fileID: 82308186198218006, guid: 973459020bf869c48b325b427c79efd1, type: 2}
+  finishReloadSFX: {fileID: 82637303149738098, guid: 03740b3dba9f70442b7f473c59aa43c8,
+    type: 2}
+  fireTime: 0
+  isFiring: 0
+  fireDuration: 0
+  spreadDegreeAR: 2
+  timeToMaxSpread: 1
+  spreadDegreeSG: 6
+  numberOfPellets: 15
+  smokeTrailPrefab: {fileID: 120554710027998792, guid: 347a507261bf2d74185e2cd3b6f5ec82,
+    type: 2}
+  onHitParticleHeadshot: {fileID: 198304818644121242, guid: dad46c1194234154f9171cb4e280641e,
+    type: 2}
